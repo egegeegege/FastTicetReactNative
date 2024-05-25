@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text ,Dimensions,Image,TouchableOpacity} from 'react-native';
 import {StyleSheet} from "react-native"
-export default function Detailscreen({ route }) {
+export default function Detailscreen({ route,navigation }) {
 const {item} = route.params;
 return (
                   <View style={styles.container}>
